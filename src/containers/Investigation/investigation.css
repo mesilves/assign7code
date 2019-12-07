@@ -1,0 +1,90 @@
+/* help with scrolling  */
+#outercontainer{
+  scroll-behavior: smooth;
+
+}
+
+.InvestigationBanner{
+    margin: 2%;
+}
+
+
+.textcomp{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow:auto;
+}
+/* .textcomp img{
+  max-width: 100% !important;
+  height: auto;
+  width: auto;
+} */
+
+.textcomp p{
+  white-space: pre-wrap;
+
+}
+/* different styles for each section */
+.one{
+  background-color: rgba(136,167,174, 0.7);
+  text-align: center;
+
+}
+
+.one{
+  background-color: rgba(136,167,174, 0.7);
+
+}
+.two{
+  background-color: rgba(61,117,169,0.7);
+  text-align: center;
+
+}
+
+.three{
+  background-color: rgba(158,136,174, 0.7);
+  text-align: center;
+
+}
+/* when display is large, have section occupy entire screen, else make it fit content */
+@media (min-width: 900px) {
+  .section{
+    height:100vh;
+  }
+}
+
+/* formatting each section */
+.section{
+
+  padding-bottom: 10%;
+  padding: 5%;
+  position: relative;
+}
+.sectionText{
+  max-width: 400px;
+  white-space: pre-wrap; /* css-3 */
+white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+word-wrap: break-word; /* Internet Explorer 5.5+ */
+white-space : normal;
+}
+
+.textContainer{
+  margin: auto;
+  width: 90%;
+  flex-direction: row;
+  justify-content: center;
+  padding:2px;
+}
+/* down and up icon */
+i{
+  color:white;
+  position: absolute;
+  bottom: 10px;
+
+}
+.goal{
+  display: flex;
+  padding: 20px;
+}

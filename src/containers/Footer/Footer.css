@@ -1,0 +1,19 @@
+.Footer {
+  margin-bottom: 30px;
+}
+
+.LogoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.SourceContainer {
+  text-align: center;
+}
+
+.SourceContainer a{
+  color: rgba(158,136,174);
+  font-weight: bold;
+}
